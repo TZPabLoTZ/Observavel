@@ -11,14 +11,15 @@ class RowText extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
-          '\$12500.00',
+          'R\$12500.00',
           style: TextStyle(
-            fontSize: 55,
+            fontSize: 40,
             color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
         ),
         SizedBox(
-          height: 10,
+          height: 5,
         ),
         Text(
           'caPay Balance',

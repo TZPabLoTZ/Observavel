@@ -6,16 +6,12 @@ class BodyHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // width: double.maxFinite,
+      width: double.maxFinite,
       child: Column(
         children: [
-          SizedBox(
-            height: 100,
-          ),
+          SizedBox(height: 100),
           RowText(),
-          SizedBox(
-            height: 20,
-          ),
+          SizedBox(height: 20),
           RowIcon(),
         ],
       ),

@@ -8,8 +8,8 @@ class AppWidget extends StatelessWidget {
       title: 'resposividade',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
-        scaffoldBackgroundColor: Colors.blue[800],
+        primarySwatch: Colors.deepPurple,
+        scaffoldBackgroundColor: Colors.deepPurple,
       ),
       home: HomeScreen(),
     );
